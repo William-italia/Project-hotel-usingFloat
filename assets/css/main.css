@@ -1,6 +1,7 @@
 :root {
-    /* --color-primary: #fac571; */
-    --color-primary: #6aff00;
+    --color-primary: #fef461;
+    /* --color-primary: #6aff00; */
+    /* --color-primary: #6aff00; */
 
 }
 
@@ -103,8 +104,8 @@ p {
     color: #000;
 }
 
-.btn-light-green:hover {
-    background-color: #059300;
+.btn-light:hover {
+    background-color: var(--color-primary);
     color: #fff;
 }
 
@@ -115,7 +116,7 @@ p {
 }
 
 #navbar a{
-    color: var(--color-primary);
+    color: #fff;
 }
 
 #navbar h1 {
@@ -141,6 +142,42 @@ p {
 
 #navbar ul li a:hover, #navbar ul li a.current {
     background-color: #444;
+    color: var(--color-primary);
+}
+
+/* Navbar-light */
+#navbar-light {
+    background: #ffffff;
+    overflow: auto;
+}
+
+#navbar-light a{
+    color: #333;
+}
+
+#navbar-light h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar-light ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar-light ul li {
+    float: left;
+}
+
+#navbar-light ul li a {
+    display: block;
+    text-align: center;
+    transition: .5s;
+    padding: 20px;
+}
+
+#navbar-light ul li a:hover, #navbar-light ul li a.current {
+    background-color: #a4a4a4;
     color: var(--color-primary);
 }
 
@@ -216,6 +253,7 @@ p {
     width: 33.3%;
     height: 400px;
     padding: 50px;
+    overflow: hidden;
 }
 .box:nth-child(2) {
     color: #000;
@@ -238,19 +276,68 @@ p {
     font-size: 18px;
     line-height: 1.4em; 
 }
+
+
+/* about */
+#about-info {
+    padding: 50px 0;
+}
+
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right  img {
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: 300px;
+    border: 1px solid var(--color-primary);
+    border-radius: 50%;
+ }
+
+ #about-info .info-left {
+    float: left;
+    margin-top: 40px;
+    width: 50%;
+    min-height: 100%;
+ }
+
+/* testemunials */
+#testimonials  {
+    background: url(../img/test-bg.jpg) no-repeat center center/cover;
+    height: 600px;
+    padding-top: 40px;
+}
+
+#testimonials h1 {
+    font-size: 35px;
+    color: #fff;
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+#testimonials .testimonial img {
+    width: 100px;
+    float: left;
+    border-radius: 50%;
+    border: 3px solid #000000;
+    margin-right: 10px;
+}
+
 /* footer */
 #main-footer {
     text-align: center;
-    /* padding: 20px; */
 }
 
 #main-footer p {
     margin: 25px 0;
 }
-
-
-
-
 
 
 
