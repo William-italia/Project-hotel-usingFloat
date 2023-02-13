@@ -1,0 +1,77 @@
+/* uility classes */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    padding: 0 20px;
+    overflow: auto;
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: red;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .8s;
+}
+
+/* bg colors */
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background-color: #fff;
+    color: #333;
+}
+
+.bg-light-dark {
+    background: #444;
+    color: #fff;
+}
+
+.bg-primary-color {
+    background-color: var(--color-primary);
+    color: #333;
+}
+
+/* btn color */
+
+.btn-dark {
+    background-color: #333;
+    color: var(--color-primary);
+}
+
+.btn-light {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-light-green {
+    background-color: var(--color-primary);
+    color: #000;
+}
+
+/* Btn hover */
+
+.btn-dark:hover {
+    background-color: var(--color-primary);
+    color: #000;
+}
+
+.btn-light:hover {
+    background-color: var(--color-primary);
+    color: #fff;
+}
