@@ -1,5 +1,5 @@
 :root {
-    --color-primary: #fef461;
+    --color-primary: #01c18b;
     /* --color-primary: #6aff00; */
     /* --color-primary: #6aff00; */
 
@@ -237,14 +237,44 @@ z-index: -2;
 
 
 /* Contact  */
+#contact-form {
+    padding: 30px;
+}
 
+#contact-form h1 {
+    font-size: 40px;
+}
+
+#contact-form p {
+    font-size: 20px;
+}
+
+/* Form group */
+.form-group {
+    padding: 20px 0;
+}
+
+.form-group input{
+    display: block;
+    width: 100%;
+    padding: 15px;
+}
+
+.form-group textarea {
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+
+form button {
+    cursor: pointer;
+}
 
 /* box  */
 .box {
     float: left;
     text-align: center;
     width: 33.3%;
-    height: 350px;
     padding: 50px;
     overflow: hidden;
 }
@@ -257,9 +287,9 @@ z-index: -2;
     font-size: 60px;
 }
 
-.bo h3 {
-    margin-top: 10px;
-    font-size: 30px;
+.box h3 {
+    margin: 15px 0 10px 0;
+    font-size: 20px;
 }
 
 .box p {
