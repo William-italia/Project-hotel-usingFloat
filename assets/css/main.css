@@ -236,6 +236,39 @@ z-index: -2;
 }
 
 
+/* Contact  */
+
+
+/* box  */
+.box {
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    height: 350px;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.box {
+    margin-top: 10px;
+}
+
+.box i {
+    font-size: 60px;
+}
+
+.bo h3 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.box p {
+    font-size: 18px;
+    line-height: 1.4em; 
+}
+
+
+
 /* footer */
 #main-footer {
     text-align: center;
