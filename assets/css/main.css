@@ -231,10 +231,12 @@ z-index: -2;
     height: 100px;
     float: left;
     margin-right: 20px;
-    border: 3px solid #000;
+    border: 3px solid #fff;
     border-radius: 50%;
 }
-
+#testimonials .testimonial p {
+    color: #fff;
+}
 
 /* Contact  */
 #contact-form {
