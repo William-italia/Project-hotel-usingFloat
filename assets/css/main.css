@@ -355,7 +355,7 @@ form button {
     justify-content: space-between;
 }
 
-.menu-open .toggler {
+.menu-open #toggler {
     position: absolute;
     margin-top: 20px;
     padding: 20px;
@@ -396,7 +396,7 @@ form button {
     z-index: 4;
     }
 
-    .menu-open > .toggler:checked > .menu > .container ~ .menu-content{
+    .menu-content {
         opacity: 1;
     }
     

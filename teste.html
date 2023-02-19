@@ -5,36 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-        .toggler {
-            width: 50px;
-            height: 50px;
-        }
-        input .toggler:checked ~ .div {
-            opacity: 1;        }
-        .div {
-            opacity: 0;
-        }
-    </style>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/Utility-classes.css">
+    <link rel="stylesheet" href="./assets/css/Media-queries.css">
+    
 </head>
 <body>
-    <div class="container">
-        <div>
-            <input type="checkbox" class="toggler">
+  
+    <div class="container-wrap">
+        <h1 class="logo">HTB</h1>
+        <div class="menu-open">
+           <div class="container-wrap">
+               <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+               <input type="checkbox" class="toggler">
+            </div>
         </div>
-
-        <div class="div">
-            <h1>Aumentar fonte para 2rem</h1>
         </div>
-
-
-
-    </div>
+        <div class="menu">
+            <div class="container">
+                <div class="menu-content">
+                    <div>
+                        <div>
+                            <ul>
+                                <li><a href="./home.html">Home</a></li>
+                                <li><a href="./about.html">About</a></li>
+                                <li><a href="./contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
