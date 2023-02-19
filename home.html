@@ -9,11 +9,12 @@
     <meta name="keywords" content="hotel, boston hotel, new england hotel">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/Utility-classes.css">
+    <link rel="stylesheet" href="./assets/css/Media-queries.css">
     <link rel="stylesheet" href="https://kit.fontawesome.com/3c1cdaf6f0.css" crossorigin="anonymous">
 </head>
 <body>
     <header>
-          <nav id="navbar">
+        <nav id="navbar">
             <div class="container">
                 <h1 class="logo"><a href="./home.html">HTB</a></h1>
                 <ul>
@@ -21,8 +22,34 @@
                     <li><a href="./about.html">About</a></li>
                     <li><a href="./contact.html">Contact</a></li>
                 </ul>
-              </nav>
             </div>
+          </nav>
+          <nav class="navbar-wrap">
+            <div class="container-wrap">
+                <h1 class="logo">HTB</h1>
+                <div class="menu-open">
+                   <div class="container-wrap">
+                       <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+                       <input type="checkbox" class="toggler">
+                    </div>
+                </div>
+                </div>
+                <div class="menu">
+                    <div class="container">
+                        <div class="menu-content">
+                            <div>
+                                <div>
+                                    <ul>
+                                        <li><a href="./home.html">Home</a></li>
+                                        <li><a href="./about.html">About</a></li>
+                                        <li><a href="./contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
           <div id="showcase">
               <div class="container">
                   <div class="showcase-content">
@@ -32,7 +59,7 @@
                     </div>
                 </div>
           </div>
-</header>
+        </header>
 <main>
     <section id="home-info" class="bg-dark">
                 <div class="info-img"></div>
